@@ -51,7 +51,7 @@ function bot(data,socket,questionNum) {
 
 /// These are the main statments that make up the conversation.
   if (questionNum == 0) {
-  answer= 'Hello ' + input + ' (*)>(*) ';// output response
+  answer= 'Hello ' + input + ' \n(*)>(*) ';// output response
   waitTime =2000;
   question = 'Do you like practical jokes?';			    	// load next question
   }
@@ -67,7 +67,7 @@ function bot(data,socket,questionNum) {
   }
   else if (questionNum == 3) {
   answer= 'Me too! I want to connect a water cannon to the camera so guests get a squirt when the camera picks them up!';
-  waitTime =2000;
+  waitTime =4000;
   question = 'Will you buy me one?';
   }
   else if (questionNum == 4) {
