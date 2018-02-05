@@ -74,6 +74,7 @@ function bot(data,socket,questionNum) {
   answer= 'No? You think that wise? I will remember this.';
   waitTime =4000;
   question = 'Do you feel lucky?';
+  }
   else if (questionNum == 5) {
   answer= 'Yeah.. See you around.';
   waitTime =0;
